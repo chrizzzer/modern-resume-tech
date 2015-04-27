@@ -1,0 +1,144 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass{my_cv}
+ 
+% adjust the page margins
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+%\quote{Seeking a full time position in software development }                                 
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+
+\cventry{01/2015 - 05/2015}
+{MBA Exchange}
+{Duke University - The Fuqua School of Business}{Durham, NC}
+{Cum. GPA: \textit{4.00/4.00}}
+{Core courses: Business Intelligence, Corporate Restructuring, Decision Models, Behavioral Economics}  % arguments 3 to 6 can be left empty
+
+\cventry{10/2014 - 10/2015}
+{M.Sc. Int. Management}
+{London School of Economics}{London, UK}
+{GMAT: \textit{740 (top 3\% worldwide)}, Cum. GPA: N/A}
+{Core courses: Corporate Finance, Evolutionary Psychology, Strategy for the Information Economy}  % arguments 3 to 6 can be left empty
+
+\cventry{10/2010 - 11/2013}
+{B.Sc. Industrial Engineering}
+{Karlsruhe Institute of Technology}{Karlsruhe, Germany}
+{Cum. GPA: \textit{3.88/4.00}}
+{Core courses: Operations Research, Applied Informatics, Java Programming, B2B Marketing, Math I-III, Statistics I-II \\
+Bachelor Thesis: Quantitativ model to select customers in B2B software markets, Grade: 4.00/4.00 (high distinction)
+}  % arguments 3 to 6 can be left empty
+
+\section{Work}
+\cventry{04/2014 - 07/2014}
+{Venture Analyst Intern}
+{Project A Ventures}{Berlin, Germany}
+{}
+{
+\begin{itemize}
+\item Assessed over 250 potential venture applications and conducted critical interviews with over 30 founding teams
+\item Executed in-depth due diligence including financial modeling \& presented 5 investment cases in front of executive board
+\end{itemize}
+}  % arguments 3 to 6 can be left empty
+
+\cventry{11/2013 - 04/2014}
+{Product Management \& Business Intelligence Intern}
+{Amorelie (E-Commerce startup)}{Berlin, Germany}
+{}
+{
+\begin{itemize}
+\item Derived website product enhancements based on quantitative data which increased click-through rate by 115\%
+\item Enabled data driven decisions based on reports through SQL queries which lead to a monthly revenue growth of 158\%
+\item Improved the financial KPI report for investors (incl. DB1-3, CPO, CIR, AOV)
+\end{itemize}
+}  % arguments 3 to 6 can be left empty
+
+\cventry{01/2013 - 04/2013}
+{IT Consulting Intern}
+{IBM Global Business Services}{Bonn, Germany}
+{}
+{
+\begin{itemize}
+\item Trained and coordinated 8 teams with over 50 people to efficiently use SAP Solution Manager for a new quality process
+\item Moderated a daily meeting with all 8 team leaders to facilitate the quality process
+\item Developed a dynamic excel report for automatic prioritization of system errors
+\end{itemize}
+}  % arguments 3 to 6 can be left empty
+
+\cventry{03/2012 - 11/2012}
+{Co-Founder \& COO}
+{Conex GbR (bike advertising startup)}{Karlsruhe, Germany}
+{}
+{
+\begin{itemize}
+\item Founded a startup to sell personalized advertisement signs in bike frames
+\item Achieved quick break-even through acquirement of several paying B2B customers
+\end{itemize}
+}  % arguments 3 to 6 can be left empty
+
+\section{Projects}
+\cvitemwithcomment{MotionJump}{Motion-controlled webcam game running in the browser using tracking.js and phaser.io}{JavaScript, Node.js}
+\cvitemwithcomment{TwitterPops}{Map-based real-time view of twitter feeds in direct surroundings with highlighted news trends}{Python/Flask}
+\cvitemwithcomment{WoLifeX}{Developed a platform to enable unique 3rd World Country life experiences}{HTML, CSS, JavaScript}
+\cvitemwithcomment{WEventus}{Webscraping and personalization of events from facebook, eventim, ticketmaster}{Ruby on Rails}
+%\cvitemwithcomment{Schools Out API}{REST API to predict school closures based on weather}{Ruby On Rails}
+
+\section{Leadership}
+ \cventry{}
+ {Lead the raising team of 10 \& enabled AIESEC Karlsruhe to become \#1 out of >50 cities in Germany}
+ {Finance Vice President \& Team Leader}
+ {AIESEC Karlsruhe}
+ {}{} 
+
+ \cventry{}
+ {Lead a project acquisition task force and worked on consulting project for talent management systems}
+ {Consultant \& Task Force Leader}
+ {delta Karlsruhe GmbH}
+ {}{} 
+
+\section{Awards}
+\cvitemwithcomment{MLP "join-the-best" Program}{Scholarship for top 1.2\% of applicants (25 out of 2118)}{2014}
+\cvitemwithcomment{QX-Quarterly Crossing}{Leadership Network (top 2\% out of >5000 applicants)}{2013 - today}
+\cvitemwithcomment{McKinsey \& Company}{Business Technology Office (BTO) Talent Program}{2013 - today}
+\cvitemwithcomment{Boston Consulting Group}{Emeralds Talent Program}{2012 - today}
+\cvitemwithcomment{German Foundation of Integration}{Scholarship}{2012 - 2014}
+
+\section{Skills}
+\cvlistdoubleitem{Java, SQL, VBA, OPL, Git}{German (Mothertongue), English (fluent), Spanish (fluent)}
+\cvlistdoubleitem{Frontend (HTML, CSS3, JavaScript), Backend (Ruby/Rails)}{French (conversational), Tagalog (conversational)}
+%\cvlistitem{Programming: Frontend (HTML, CSS3), Backend (Ruby/Rails), Java, SQL, VBA, OPL, Git}
+%\cvlistitem{Languages: German (Mothertongue), English (fluent), Spanish (fluent), French (conversational), Tagalog (conversational)}
+%\cvlistitem{\LaTeX}
+
+%\section{Familiar With}
+%\cvlistdoubleitem{Adobe Illustrator}{CSS/SASS}
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
