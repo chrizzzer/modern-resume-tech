@@ -1,4 +1,6 @@
-# Tech resume
+# CV
+
+Tech Resume
 
 To view, clone and compile with:
 ```bash
